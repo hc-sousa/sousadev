@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: sousadev.com
+Token: 76c392fe8d8f77fe9fe1095310771ae1e87b1a5f432c54afad2cce3f8d7527fa
