@@ -515,7 +515,8 @@ Seminário - Robótica e Sistemas Inteligentes
 
   - O tempo de treino no RPi 4 foi ~43% menor que o tempo de treino do modelo treinado de raiz
   - O tempo de treino no RPi 5 foi ~62% menor que o tempo de treino do modelo treinado de raiz</p></div><div class="bespoke-marp-note" data-index="19" tabindex="0"><p>O uso do CPU e GPU também não foram excessão nessa redução.
-  - O poder computacional necessário para treinar o modelo com transfer learning foi muito menor que o necessário para treinar o modelo de raiz. com valores por volta dos 20% quando ao treinar de raiz os valores eram por volta dos 60/70%
+  - O poder computacional necessário para treinar o modelo com transfer learning foi muito menor que o necessário para treinar o modelo de raiz. com valores por volta dos 15-20% quando ao treinar de raiz os valores eram por volta dos 20-25% no RPi5
+  - e de 55-60% quando antes eram entre 65-80% no RPi4
   - Já para não falar, que treina durante muito menos tempo, por isso também está a usar menos recursos durante menos tempo</p></div><div class="bespoke-marp-note" data-index="20" tabindex="0"><p>As conclusões que tirei deste estudo foram:
     - É possível treinar um modelo de ML num embedded system, mas com um custo computacional significativo.
     - Para reduzir o custo computacional, é possível usar Transfer Learning, sem afetar a performance do modelo e reduzindo o overload computacional num sistema que tenha poucos recursos.</p></div><div class="bespoke-marp-note" data-index="21" tabindex="0"><p>Como trabalho futuro, nomeadamente, para a continuação da minha dissertação:
